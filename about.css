@@ -1,0 +1,50 @@
+.who-we-are, .core-sectors, .mission-content{
+    color: rgb(88, 77, 77);
+    font-style: italic;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width:100%;
+    margin:0 auto;
+    text-align: left;
+    display: block;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgb(117, 69, 69);
+    margin-bottom: 30px;
+}
+.about-us h1{ 
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-style: italic;
+    color:black;
+    text-align: center;
+}  
+.about-us h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.who-we-are h2, .mission-content h2 , .core-sectors h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    color: rgb(65, 34, 34);
+    text-align: left;
+}
+.who-we-are p, .mission-content p , .core-sectors p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-style: oblique;
+    text-align: left;
+    line-height: 1.6;
+}
+.who-we-are:hover, .core-sectors:hover, .mission-content:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease-in-out;
+}
